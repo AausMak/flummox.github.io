@@ -1,0 +1,149 @@
+*{
+    margin :0,
+
+}
+.container{
+    background-color:transparent;
+}
+.title{
+    /* to activate styling (horizontal) */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size:xx-large;
+    width:95%;
+    height:fit-content;
+    margin-left: 30px; 
+    padding-bottom: 2cm;
+    padding-top: 0.5cm;
+}
+.information{
+    color: #808080;
+    justify-content: center;
+    align-items: center;
+    padding-left:11%;
+    font-size: larger;
+    padding-top: 0%;
+    font-family:serif;
+}
+.Me{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding-left:11%;
+    font-size: larger;
+    font-family:cursive;
+    padding-left: 0%;
+    background-color:transparent;
+}
+.Rev{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding-left:11%;
+    padding-top: 0.5cm;
+    font-family:cursive;
+    margin-top: 2.5cm;
+    padding-left: 0%;
+    font-size:x-large
+}
+.info{
+    color:#808080;
+    font-size:small;
+    justify-items: center;
+    font-family:serif;
+    padding-left: 0%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    border-radius: 20px;
+    background-color:#1a1c1d;
+    height:5cm;
+    width:7.5cm;
+    font-family: fantasy;
+}
+.item p{
+    position:absolute;
+    top:35%;
+    left:10%;
+    bottom: 10%;
+    transform:translate(10%,100%);
+}
+.item:hover p{
+    opacity: 0.3;
+}
+.item:hover img{
+    opacity: 0.3 ;
+}
+.info1{
+    display: flex;
+    align-self:flex-start;
+    flex-flow: column;
+    color:#808080;
+    font-size:small;
+    justify-items:flex-start;
+    font-family:serif;
+    padding-left: 0%;
+    padding-right: 10%;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size:large;
+    width:95%;
+    height: 1cm;
+    margin-left: 30px; 
+    color: #3a3a3a;
+    margin-top:0cm;
+}
+.play{
+    align-items: center;
+}
+.image{
+    display: flex;
+    padding-left: 0cm;
+    justify-content: space-around;
+    width: 10;
+    height: 50;
+}
+.grid{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    /*flex is a container*/ 
+}
+.margin{
+    margin-top: 1cm;
+}
+.Message{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    padding-left:11%;
+    font-size: larger;
+    font-family:cursive;
+    padding-left: 0%;
+    background-color:transparent;
+    align-items: center;
+    
+}
+/* For center Align Text
+color:#808080;
+    font-size:large;
+    padding-right: 10%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-around; 
+*/
